@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": { "major": 3, "minor": 19, "patch": 0 },
+    "configurePresets": [
+      {
+        "name": "Sports-Odds-Trading-Workbench",
+        "displayName": "Clang-LLVM Release",
+        "description": "Homebrew Clang, Release, OpenMP, TBB",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/build/${presetName}",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Release",
+          "CMAKE_CXX_COMPILER": "/opt/homebrew/opt/llvm/bin/clang++",
+          "CMAKE_C_COMPILER": "/opt/homebrew/opt/llvm/bin/clang",
+          "CMAKE_PREFIX_PATH": "/opt/homebrew/opt/tbb;/opt/homebrew/opt/libomp"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/arm64-osx/include",
+                "/opt/homebrew/Cellar/onedpl/2022.8.0/include",
+                "/opt/homebrew/Cellar/tbb/2022.1.0/include",
+                "/opt/homebrew/Cellar/llvm/20.1.2/include/c++/v1"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/homebrew/Cellar/llvm/20.1.2/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
