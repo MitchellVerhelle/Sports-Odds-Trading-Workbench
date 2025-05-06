@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/mitchellverhelle/C++ Class/Final/build",
-  "command": "/opt/homebrew/Cellar/llvm/20.1.2/bin/clang++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -o CMakeFiles/test.dir/test.cpp.o -c \"/Users/mitchellverhelle/C++ Class/Final/test.cpp\"",
-  "file": "/Users/mitchellverhelle/C++ Class/Final/test.cpp",
-  "output": "CMakeFiles/test.dir/test.cpp.o"
-}
-]

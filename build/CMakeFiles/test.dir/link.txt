@@ -1,1 +1,0 @@
-/opt/homebrew/Cellar/llvm/20.1.2/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test.dir/test.cpp.o -o test
