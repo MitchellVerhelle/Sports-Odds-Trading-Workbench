@@ -32,4 +32,5 @@
 *.app
 
 # Builds
-/build
+/build/
+/build/*
